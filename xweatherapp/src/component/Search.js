@@ -11,7 +11,7 @@ export default function Search ({onSearch}) {
 
     return (
         <div className="search">
-            <input className="input" type="search" value={city} onChange={(e)=>setCity(e.target.value)} placeholder="Enter city name"/>
+            <input className="input" type="text" value={city} onChange={(e)=>setCity(e.target.value)} placeholder="Enter city name"/>
             <button className="button" onClick={handleSearch}>Search</button>
         </div>
     );
