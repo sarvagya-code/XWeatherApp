@@ -1,0 +1,6 @@
+.weather-card{
+    width: 200px;
+    border: 1px solid #AAA;
+    background-color: white;
+    border-radius: 5px;
+}
